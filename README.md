@@ -18,3 +18,13 @@ Double-click `Daylight Year.bat`. It unpacks the page to your temp folder and op
 - The 3D Earth and the weather need an internet connection. The rest works offline.
 - Times use standard time for each place, with no daylight-saving shift.
 - The sun and moon positions are approximate (the moon to about a degree).
+
+## Outside services
+
+The page contacts these services when it runs:
+
+- **Open-Meteo** (weather): receives the coordinates of the chosen place.
+- **jsDelivr** (3D library and Earth images).
+- **Google Fonts** (typefaces).
+
+Your saved location is kept only in your browser.
